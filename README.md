@@ -1,4 +1,4 @@
-# flutter_application_1
+# Mobile application "To Day Is..."
 
 A new Flutter project.
 
