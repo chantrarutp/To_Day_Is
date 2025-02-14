@@ -1,0 +1,45 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations: # เพิ่มบรรทัดนี้
+    sdk: flutter # สำหรับการรองรับการแปลภาษา
+  cupertino_icons: ^1.0.6
+  provider: ^6.0.5 # เพิ่ม dependency สำหรับ provider
+  font_awesome_flutter: ^10.1.0
+  animate_do: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/color.png
+    - assets/dice.png
+    - assets/etc.png
+    - assets/num.png
+    - assets/Qoute.png
+    - assets/mysterybox.png
+    - assets/yesno.png
+    - assets/logo.png
+    - assets/bg.png
+    - assets/letter.png
+    - assets/dice_0.png
+    - assets/dice_1.png
+    - assets/dice_2.png
+    - assets/dice_3.png
+    - assets/dice_4.png
+    - assets/dice_5.png
+    - assets/dice_6.png
